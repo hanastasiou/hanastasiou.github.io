@@ -1,0 +1,37 @@
+body{
+	background-color: #333333
+}
+#logo{
+font-family: "Times New Roman", Serif;
+	font-size: 26px;
+	font-weight: 100;
+	text-align: left;
+	color: #ffffff;
+}	
+#title{
+	font-family: "Times New Roman", Serif;
+	font-size: 35px;
+	font-weight: 400;
+	text-align: left;
+	color: #ffffff;
+}
+h2{
+	font-family: "Times New Roman", Serif;
+	font-size: 20px;
+	text-align: left;
+	font-weight: normal;
+	color: #ffffff;	
+}
+.information{
+	color: #ffffff;
+	font-family: "Times New Roman", Serif;
+	font-weight: normal;
+	font-size: 12px;
+}
+#slogan{
+	font-family: "Times New Roman", Serif;
+	font-size: 20px;
+	text-align: left;
+	color: #CFC5CF;
+	font-style: italic;
+}
