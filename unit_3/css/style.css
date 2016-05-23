@@ -1,9 +1,9 @@
 body{
 	background-image: url(images/orangewaterpaint.jpg);
 	background-attachment: fixed;
-	background-position: center;  
+	background-position: center right;  
 	background-repeat: no-repeat;
-	background-size: 50%;
+	background-size: 45%;
 }
 #logo{
 font-family: "Times New Roman", Serif;
@@ -17,6 +17,8 @@ font-family: "Times New Roman", Serif;
 	font-size: 45px;
 	font-weight: 900;
 	text-align: center;
+	margin-top: 180px;
+	margin-left: 20px;
 	color: #000000;
 }
 h2{
@@ -24,6 +26,8 @@ h2{
 	font-size: 20px;
 	text-align: center;
 	font-weight: bold;
+	margin-left: 250px;
+	margin-right: 250px;
 	color: #000000;	
 }
 .information{
@@ -38,4 +42,6 @@ h2{
 	text-align: center;
 	color: #000000;
 	font-style: italic;
+	margin-top: 50px;
+	margin-left: 20px;
 }
