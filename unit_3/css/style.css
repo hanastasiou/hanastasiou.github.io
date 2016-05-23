@@ -1,7 +1,7 @@
 body{
 	background-image: url(images/orangewaterpaint.jpg);
 	background-attachment: fixed;
-	background-position: center right;  
+	background-position: center;  
 	background-repeat: no-repeat;
 	background-size: 45%;
 }
@@ -10,6 +10,7 @@ font-family: "Times New Roman", Serif;
 	font-size: 22px;
 	font-weight: bold;
 	text-align: right;
+	margin-right: 40px;
 	color: #EB5E23;
 }	
 #title{
