@@ -1,11 +1,24 @@
 @import url(https://fonts.googleapis.com/css?family=Monofett);
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic);
-body{
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+.nav{
+	font-family: "Times New Roman", serif;
+	font-size: 25px;
+	text-align: right;
+	color: #EB5E23;
+}
+header{
 	background-image: url(images/skeleton.jpg);
 	background-repeat: no-repeat;
 	background-position: top right;  
 	background-size: 50%;
-	background-color: #ffffff;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
 }
 #logo{
 	font-family: "Times New Roman", Serif;
@@ -61,21 +74,22 @@ h2{
 	font-size: 18px;
 	margin-left: 80px;
 }
-#what{
+.heading{
 	font-family: 'Monofett', cursive;
+	font-style: normal;
 	font-size: 35px;
-	margin-top: 180px;
+	text-align: center;
 }
 h3{
-	font-family: 'Monofett', cursive;
-	font-size: 45px;
-	font-weight: normal;
-	margin-top: 100px;
+	font-family: 'Crimson Text', serif;
+	font-size: 25px;
+	font-weight: bold;
 	margin-left: 50px;
 }
 h4{
 	font-family: 'Crimson Text', serif;
-	font-size: 35px;
+	font-size: 20px;
+	font-weight: normal;
 	margin-left: 60px;
 	margin-bottom: 0px;
 }
@@ -100,6 +114,21 @@ ol{
 ul{
 	font-family: 'Crimson Text', serif;
 	margin-left: 80px;
+}
+#one{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+#two{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
 }
 /*#slogan{*/
 	font-family: "Times New Roman", Serif;
