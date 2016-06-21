@@ -1,0 +1,163 @@
+@import url(https://fonts.googleapis.com/css?family=Monofett);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic);
+nav{
+	background-color: #E8C66A;
+	border: 1px black solid;
+	padding: 20px;
+}
+.nav{
+	font-family: "Times New Roman", serif;
+	font-size: 25px;
+	text-align: right;
+	color: #EB5E23;
+}
+header{
+	background-repeat: no-repeat;
+	background-position: top right;  
+	background-size: 50%;
+	background-color: #FFED74;
+	border: 1px black solid;
+	padding: 20px;
+}
+#logo{
+	font-family: "Times New Roman", Serif;
+	font-size: 25px;
+	text-align: left;
+	color: #EB5E23;
+}
+#title{
+	font-family: 'Monofett', cursive;
+	font-size: 55px;
+	font-weight: normal;
+	text-align: center;
+	color: #EB5E23;
+}
+#two_column{
+	background-color: #FFB7CF;
+	border: 1PX black solid;
+	padding: 20px;
+}
+#left{
+	background-color: #E582A2;
+	border: 1px black solid;
+	padding: 20px;
+	float: left;
+	width: 40%;
+}
+#right{
+	background-color: #E55B88;
+	border: 1px black solid;
+	padding: 20px;
+	float: right;
+	width: 52%;
+}
+h2{
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+	margin-top: 5px;
+	color: #000000;	
+}
+.clearfix:after{
+	visibility: hidden;
+	display: block;
+	font-size: 0;	
+	content: " ";
+	clear: both;
+	height: 0; 
+}
+.information{
+	font-family: 'Crimson Text', serif;
+	font-weight: normal;
+	font-size: 20px;
+	font-style: italic;
+	text-align: left;
+	margin-left: 60px; 
+	margin-right: 100px;
+	color: #EB5E23;
+}
+.timeline{
+	font-family: 'Crimson Text', serif;
+	font-style: normal;
+	margin-left: 80px;
+}
+.skills{
+	font-family:'Crimson Text', serif;
+	font-weight: bold;
+	margin-left: 80px;
+	font-size: 20px;
+}
+.skillsinformation{
+	font-family: 'Crimson Text', serif;
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	margin-left: 80px;
+}
+.heading{
+	font-family: 'Monofett', cursive;
+	font-style: normal;
+	font-size: 35px;
+	text-align: center;
+}
+h3{
+	font-family: 'Crimson Text', serif;
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 50px;
+}
+h4{
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	font-weight: normal;
+	margin-left: 60px;
+	margin-bottom: 0px;
+}
+p{
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	font-style: italic;
+	margin-left: 60px;
+	margin-top: 0px;
+	margin-right: 60px;
+}
+h5{
+	font-family: 'Crimson Text', serif;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 60px;
+}
+ol{
+	font-family: 'Crimson Text', serif;
+	margin-left: 80px;
+}
+ul{
+	font-family: 'Crimson Text', serif;
+	margin-left: 80px;
+}
+#one{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+#two{
+	background-color: #FFE2B8;
+	border: 1px black solid;
+	padding: 20px;
+}
+footer{
+	background-color: #FF957E;
+	border: 1px black solid;
+	padding: 20px;
+}
+/*#slogan{*/
+	font-family: "Times New Roman", Serif;
+	font-size: 2em;
+	text-align: left;
+	margin-left: 200px;
+	color: #000000;
+	font-style: italic;
+	position: absolute;
+}
