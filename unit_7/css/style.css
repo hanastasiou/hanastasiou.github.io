@@ -1,0 +1,238 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,200,100,100italic,200italic,300,300italic,400italic,500,600,500italic,600italic,700,700italic,800,800italic,900,900italic);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,900italic,900,700italic,700,400italic,300,300italic,100italic,100);
+@import url(https://fonts.googleapis.com/css?family=Monofett);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,400italic,600,600italic,700,700italic);
+* { margin:0; padding:0; box-sizing:border-box; }
+body {
+	font-family: 'Lato', sans-serif;
+	font-size: 16px;
+}
+header {
+	background-color: #303030;
+	padding: 30px;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;	
+	content: "header";
+	clear: both;
+	height: 0; 	
+}
+nav {
+	float: right;
+}
+nav a {
+	font-family: "Raleway", sans-serif;
+	font-size: 20px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #EB5E23;
+	padding: 0;
+	margin: 0 1em;
+}
+nav a:hover {
+	background-color: #4A4A4A;
+	padding: 30px 25px;
+}
+#logo{
+	font-family: "Times New Roman", Serif;
+	font-size: 18px;
+	text-align: left;
+	color: #5A8C72;
+}
+#image {
+	width: 80%;
+	position: relative;
+}
+#toptitle {
+	font-family: "Raleway", sans-serif;
+	font-size: 50px;
+	font-weight: 200;
+	text-align: center;
+	color: #FFFFFF;
+	position: absolute;
+	top: 100px;
+	left: 400px;
+	float: right;
+	padding: 40px;
+	margin: 15px;
+}
+#top {
+	background-color: #000000;
+}
+#text {
+	background-color: #1F1F1F;
+	height: 450px;
+}
+.heading1 {
+	font-family: "Raleway", sans-serif;
+	font-size: 40px;
+	text-align: center;
+	padding-top: 50px;
+	color: #aaaaaa;
+}
+#text1 {
+	font-family: "Lato", sans-serif;
+	font-weight: lighter;
+	font-size: 15px;
+	margin: 20px;
+	padding: 20px;
+}
+.columns {
+	float: left;
+	background-color: #8F8E83;
+	border-color: transparent;
+	width: 20%;
+	height: 270px;
+	padding: 15px;
+	margin: 15px;
+}
+#clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;	
+	content: " ";
+	clear: both;
+	height: 0; 
+}
+#column1 {
+	background-color: #FA7132;
+}
+#column2 {
+	background-color: #FF652F;
+}
+#column3 {
+	background-color: #FF652F;
+}
+#column4 {
+	background-color: #FF5D0F;
+}
+#highlight1{
+	font-size: 16px;
+	font-weight: 400;
+	color: #0D1926;
+}
+.highlight2 {
+	font-style: italic;
+	font-weight: 300;
+	color: #13263B
+	font-size: 18px;
+}
+.links {
+	font-size: 18px;
+	font-weight: 600;
+	color: #0D1926;	
+	text-decoration: none;
+}
+#lrws {
+	padding: 25px;
+}
+footer{
+	background-color: #ABABAB;
+	padding: 20px;
+}
+/*#two_column{*/
+	/*background-color: #FFB7CF;*/
+	/*border: 1PX black solid;*/
+	/*padding: 20px;*/
+}
+/*.left{*/
+	/*background-color: #E582A2;*/
+	/*border: 1px black solid;*/
+	/*padding: 20px;*/
+	/*float: left;*/
+	/*width: 40%;*/
+}
+/*.right{*/
+	/*background-color: #E55B88;*/
+	/*border: 1px black solid;*/
+	/*padding: 20px;*/
+	/*float: right;*/
+	/*width: 52%;*/
+}
+/*h2{*/
+	font-size: 20px;
+	font-weight: normal;
+	font-style: italic;
+	text-align: center;
+	margin-top: 5px;
+	color: #000000;	
+}
+/*.clearfix:after{*/
+	/*visibility: hidden;*/
+	/*display: block;*/
+	/*font-size: 0;	*/
+	/*content: " ";*/
+	/*clear: both;*/
+	/*height: 0; */
+}
+.information{
+	font-weight: normal;
+	font-size: 20px;
+	font-style: italic;
+	text-align: left;
+	margin-left: 60px; 
+	margin-right: 100px;
+	color: #EB5E23;
+}
+.timeline{
+	font-style: normal;
+	margin-left: 80px;
+}
+.skills{
+	font-weight: bold;
+	margin-left: 80px;
+	font-size: 20px;
+}
+.skillsinformation{
+	font-style: normal;
+	font-weight: lighter;
+	font-size: 18px;
+	margin-left: 80px;
+}
+.heading{
+	font-family: 'Monofett', cursive;
+	font-style: normal;
+	font-size: 35px;
+	text-align: center;
+}
+h3{
+	font-size: 25px;
+	font-weight: bold;
+	margin-left: 50px;
+}
+h4{
+	font-size: 20px;
+	font-weight: normal;
+	font-style: italic;
+}
+p{
+	
+}
+h5{
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 60px;
+}
+ol{
+	margin-left: 80px;
+}
+ul{
+	margin-left: 80px;
+}
+
+#three {
+	background-color: #C28E89;
+	border: 1px black solid;
+	padding: 20px;
+}
+/*#slogan{*/
+	font-family: "Times New Roman", Serif;
+	font-size: 2em;
+	text-align: left;
+	margin-left: 200px;
+	color: #000000;
+	font-style: italic;
+	position: absolute;
+}
