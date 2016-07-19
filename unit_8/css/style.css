@@ -189,8 +189,28 @@ footer{
 		margin: 0;
 	}
 }
-@media only screen and (max-width: 400px) {
-
+@media only screen and (max-device-width: 640px) and (max-device-width: 667px) and (max-width: 480px) {
+	#toptitle {
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	#topimage {
+		float: none;
+		width: 100%;
+	}
+	.heading1 {
+		font-size: 2em;
+	}
+	.columns {
+		font-size: 1.1em;
+		padding: 1em;
+	}
+	#lrws {
+		width: 40%;
+	}
+	nav {
+		font-size: .8em;
+		margin: 0;
+	}	
 }
-
-
