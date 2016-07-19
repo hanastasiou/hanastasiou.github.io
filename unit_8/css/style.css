@@ -130,7 +130,7 @@ footer{
 		font-size: .9em;
 	}
 }
-@media only screen and (max-width: 1025px) {
+@media only screen and (max-width: 1025px) and (min-width: 690px) {
 	.columns {
 		width: 45%;
 		height: 12em;
