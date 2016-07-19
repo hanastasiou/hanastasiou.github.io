@@ -139,6 +139,9 @@ footer{
 		padding: 1em;
 		width: 25%;
 	}
+	#toptitle {
+		font-size: 2.5em;
+	}
 }
 @media only screen and (max-width: 690px) {
 	.columns {
@@ -157,8 +160,20 @@ footer{
 		clear: both;
 		height: 0; 	
 	}
+	#toptitle {
+		font-size: 2em;
+	}
 }
 @media only screen and (max-width: 529px) {
+	#toptitle {
+		float: none;
+		width: 100%;
+		margin: 0;
+	}
+	#topimage {
+		float: none;
+		width: 100%;
+	}
 	.heading1 {
 		font-size: 2em;
 	}
@@ -168,6 +183,10 @@ footer{
 	}
 	#lrws {
 		width: 40%;
+	}
+	nav {
+		font-size: .8em;
+		margin: 0;
 	}
 }
 
