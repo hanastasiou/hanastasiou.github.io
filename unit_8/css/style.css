@@ -189,7 +189,7 @@ footer{
 		margin: 0;
 	}
 }
-@media only screen and (max-device-width: 660px) and (max-width: 480px) {
+@media only screen and (max-device-width: 640px), only screen and (max-device-width: 667px), only screen and (max-width: 480px) and (orientation : portrait) {
 	#toptitle {
 		float: none;
 		width: 100%;
