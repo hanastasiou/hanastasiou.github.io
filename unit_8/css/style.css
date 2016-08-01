@@ -275,6 +275,14 @@ footer{
 		width: 45%;
 		float: left;
 	}
+	#toptitle {
+		width: 45%;
+		float: right;
+		text-align: center;
+		color: #000000;
+		padding: 3%;
+		margin: 5%;
+	}
 	.heading1 {
 		font-size: 2em;
 	}
@@ -323,8 +331,7 @@ footer{
 }
 
 /* iPhone 6 and 6 Plus */
-@media only screen
-  and (max-device-width: 640px),
-  only screen and (max-device-width: 667px),
-  only screen and (max-width: 480px)
-{ }
+/*@media only screen and (max-device-width: 640px),*/
+  /*only screen and (max-device-width: 667px),*/
+  /*only screen and (max-width: 480px)*/
+/*{ }*/
